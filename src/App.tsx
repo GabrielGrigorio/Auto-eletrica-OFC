@@ -1,0 +1,179 @@
+import React from 'react';
+import { Car, MapPin, Phone, Mail, Clock, Instagram, Wrench, MessageCircle } from 'lucide-react';
+
+const brands = [
+  {
+    name: "Moura",
+    logo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=200&fit=crop",
+  },
+  {
+    name: "Heliar",
+    logo: "https://images.unsplash.com/photo-1492724724894-7464c27d0ceb?w=500&h=200&fit=crop",
+  },
+  {
+    name: "ACDelco",
+    logo: "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=500&h=200&fit=crop",
+  },
+  {
+    name: "BOSCH",
+    logo: "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?w=500&h=200&fit=crop",
+  },
+  {
+    name: "HERBO",
+    logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&h=200&fit=crop",
+  },
+  {
+    name: "REIFOR",
+    logo: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=500&h=200&fit=crop",
+  }
+];
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-blue-900 text-white py-4">
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <img 
+              src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
+              alt="Auto Elétrica do Urso Logo" 
+              className="h-12 w-12 rounded-full object-cover"
+            />
+            <h1 className="text-2xl font-bold">Auto Elétrica do Urso</h1>
+          </div>
+          <nav className="hidden md:flex gap-6">
+            <a href="#services" className="hover:text-yellow-400">Serviços</a>
+            <a href="#brands" className="hover:text-yellow-400">Marcas</a>
+            <a href="#location" className="hover:text-yellow-400">Localização</a>
+            <a href="#contact" className="hover:text-yellow-400">Contato</a>
+          </nav>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold mb-4">Especialistas em Elétrica Automotiva</h2>
+          <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>
+          <button className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition">
+            Agende um Serviço
+          </button>
+        </div>
+      </div>
+
+      {/* Services */}
+      <section id="services" className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">Nossos Serviços</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <Car className="text-yellow-400 w-12 h-12 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Diagnóstico Eletrônico</h3>
+              <p className="text-gray-600">Análise completa do sistema elétrico do seu veículo</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <Wrench className="text-yellow-400 w-12 h-12 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Reparo de Alternadores</h3>
+              <p className="text-gray-600">Manutenção e substituição de componentes elétricos</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <Car className="text-yellow-400 w-12 h-12 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Instalação de Acessórios</h3>
+              <p className="text-gray-600">Instalação profissional de equipamentos elétricos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Brands */}
+      <section id="brands" className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">Marcas Atendidas</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {brands.map((brand, index) => (
+              <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                <img
+                  src={brand.logo}
+                  alt={`Logo ${brand.name}`}
+                  className="w-full h-32 object-contain mb-4"
+                />
+                <h3 className="text-xl font-semibold text-center text-blue-900">{brand.name}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Location */}
+      <section id="location" className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">Nossa Localização</h2>
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356219020248!2d-43.18340548503453!3d-22.903739785015005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1sen!2sbr!4v1645554745674!5m2!1sen!2sbr"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              className="rounded-lg shadow-md"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-blue-900 text-white py-12">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Contato</h3>
+              <div className="space-y-2">
+                <p className="flex items-center gap-2">
+                  <Phone size={20} />
+                  (21) 9999-9999
+                </p>
+                <p className="flex items-center gap-2">
+                  <Mail size={20} />
+                  contato@autoeletricadourso.com
+                </p>
+                <p className="flex items-center gap-2">
+                  <MapPin size={20} />
+                  Rua Example, 123 - Rio de Janeiro
+                </p>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>
+              <div className="space-y-2">
+                <p className="flex items-center gap-2">
+                  <Clock size={20} />
+                  Segunda a Sexta: 8h às 18h
+                </p>
+                <p className="ml-6">Sábado: 8h às 12h</p>
+                <p className="ml-6">Domingo: Fechado</p>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
+              <div className="flex gap-4">
+                <a href="https://wa.me/5521999999999" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle size={24} />
+                </a>
+                <a href="https://instagram.com/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+                  <Instagram size={24} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 pt-8 border-t border-blue-800 text-center">
+            <p>&copy; 2024 Auto Elétrica do Urso. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
