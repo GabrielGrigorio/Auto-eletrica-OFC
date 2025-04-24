@@ -36,9 +36,9 @@ function App() {
     <div className="flex items-center gap-4">
       {/* Logo aumentada */}
       <img 
-        src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
+        src="https://i.postimg.cc/vmBt52Xq/imagem-2025-04-24-155942478.png" 
         alt="Auto Elétrica do Urso Logo" 
-        className="h-16 w-16 rounded-full object-cover"
+        className="h-18 w-18 rounded-full object-cover"
       />
       {/* Título aumentado */}
       <h1 className="text-3xl font-bold">Oficina do Urso</h1>
