@@ -53,7 +53,7 @@ function App() {
      {/* Hero Section */}  
 <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
   <div className="container mx-auto px-4 text-center">  
-    <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânina em geral</h2>  
+    <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânica em geral</h2>  
     <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
     <a   
       href="https://w.app/autoeletricadourso" // Substitua com seu número válido  
