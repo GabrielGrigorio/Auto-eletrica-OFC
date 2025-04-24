@@ -180,7 +180,7 @@ function App() {
         <img
           src="https://i.postimg.cc/gj5ps7PY/Logo-urso.png"
           alt="Logo da Oficina do Urso"
-          className="h-28 w-28 object-cover"
+          className="h-48 w-48 object-cover"
         />
       </div>
     </div>
