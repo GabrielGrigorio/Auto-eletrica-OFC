@@ -137,6 +137,7 @@ function App() {
                 <p className="flex items-center gap-2">
                   <Phone size={20} />
                   Fixo:(11) 4307-1068 
+                  <Phone size={20} />
                   Cel:+55 (11) 97072-7635
                 </p>
                 <p className="flex items-center gap-2">
