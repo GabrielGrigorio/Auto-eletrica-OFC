@@ -127,7 +127,7 @@ function App() {
          </div>
        </section>
 
-    {/* Footer */}
+  {/* Footer */}
 <footer className="bg-blue-900 text-white py-12">
   <div className="container mx-auto px-4">
     <div className="grid md:grid-cols-3 gap-8">
@@ -153,7 +153,7 @@ function App() {
       </div>
 
       {/* Horário de Funcionamento */}
-      <div>
+      <div className="flex flex-col space-y-4">
         <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>
         <div className="space-y-2">
           <p className="flex items-center gap-2">
@@ -165,25 +165,22 @@ function App() {
         </div>
       </div>
 
-      {/* Redes Sociais */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
-          <div className="flex gap-4">
-            <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
-              <MessageCircle size={24} />
-            </a>
-            <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
-              <Instagram size={24} />
-            </a>
-          </div>
+      {/* Redes Sociais e Logo */}
+      <div className="flex flex-col space-y-4 items-center">
+        <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
+        <div className="flex gap-4">
+          <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+            <MessageCircle size={24} />
+          </a>
+          <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+            <Instagram size={24} />
+          </a>
         </div>
-
-        {/* Logo ao lado direito */}
+        {/* Logo quadrada */}
         <img
           src="https://i.postimg.cc/gj5ps7PY/Logo-urso.png"
           alt="Logo da Oficina do Urso"
-          className="h-16 w-16 rounded-full object-cover"
+          className="h-16 w-16 object-cover"
         />
       </div>
     </div>
