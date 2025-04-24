@@ -176,7 +176,7 @@ function App() {
       </div>  
     </div>  
     <div className="mt-8 pt-8 border-t border-blue-800 text-center">  
-      <p>&copy; 2024 Auto Elétrica do Urso. Todos os direitos reservados.</p>  
+      <p>&copy; 2024 Oficina do Urso. Todos os direitos reservados.</p>  
     </div>  
   </div>  
 </footer>  
