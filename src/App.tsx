@@ -37,9 +37,9 @@ function App() {
              <img 
                src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
                alt="Auto Elétrica do Urso Logo" 
-               className="h-12 w-12 rounded-full object-cover"
+               className="h-18 w-18 rounded-full object-cover"
              />
-             <h1 className="text-2xl font-bold">Oficina do Urso</h1>
+             <h1 className="text-4xl font-bold">Oficina do Urso</h1>
            </div>
            <nav className="hidden md:flex gap-6">
              <a href="#services" className="hover:text-yellow-400">Serviços</a>
