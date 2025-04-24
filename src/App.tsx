@@ -58,7 +58,7 @@ function App() {
            <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânica em geral</h2>  
            <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
            <a   
-             href="https://w.app/autoeletricadourso"
+             href="https://markey.app.br/chat?store=6gyftdggbd2104"
              className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition"  
              target="_blank"  
              rel="noopener noreferrer"  
