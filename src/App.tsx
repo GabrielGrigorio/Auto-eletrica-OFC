@@ -184,7 +184,7 @@ function App() {
           </div>  
         </div>  
       </footer>
-    </div> {/* <-- fechamento final da div do App */}
+    </div>
   );
 }
 
