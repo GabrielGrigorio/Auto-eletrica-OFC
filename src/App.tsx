@@ -137,8 +137,7 @@ function App() {
   <div className="flex items-center gap-2">
     <Phone size={20} />
     <span>Fixo: (11) 4307-1068</span>
-  </div>
-  <div className="flex items-center gap-2">
+    
     <Phone size={20} />
     <span>Cel: (11) 97072-7635</span>
   </div>
