@@ -30,25 +30,27 @@ const brands = [
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
-       {/* Header */}
-       <header className="bg-blue-900 text-white py-4">
-         <div className="container mx-auto px-4 flex justify-between items-center">
-           <div className="flex items-center gap-2">
-             <img 
-               src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
-               alt="Auto Elétrica do Urso Logo" 
-               className="h-18 w-18 rounded-full object-cover"
-             />
-             <h1 className="text-4xl font-bold">Oficina do Urso</h1>
-           </div>
-           <nav className="hidden md:flex gap-6">
-             <a href="#services" className="hover:text-yellow-400">Serviços</a>
-             <a href="#brands" className="hover:text-yellow-400">Marcas</a>
-             <a href="#location" className="hover:text-yellow-400">Localização</a>
-             <a href="#contact" className="hover:text-yellow-400">Contato</a>
-           </nav>
-         </div>
-       </header>
+    {/* Header */}
+<header className="bg-blue-900 text-white py-4">
+  <div className="container mx-auto px-4 flex justify-between items-center">
+    <div className="flex items-center gap-4">
+      {/* Logo aumentada */}
+      <img 
+        src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
+        alt="Auto Elétrica do Urso Logo" 
+        className="h-19 w-19 rounded-full object-cover"
+      />
+      {/* Título aumentado */}
+      <h1 className="text-4xl font-bold">Oficina do Urso</h1>
+    </div>
+    <nav className="hidden md:flex gap-6">
+      <a href="#services" className="hover:text-yellow-400">Serviços</a>
+      <a href="#brands" className="hover:text-yellow-400">Marcas</a>
+      <a href="#location" className="hover:text-yellow-400">Localização</a>
+      <a href="#contact" className="hover:text-yellow-400">Contato</a>
+    </nav>
+  </div>
+</header>
  
        {/* Hero Section */}  
        <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
