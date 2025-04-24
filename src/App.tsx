@@ -1,4 +1,3 @@
-import React from 'react';
 import { Car, MapPin, Phone, Mail, Clock, Instagram, Wrench, MessageCircle } from 'lucide-react';
 
 const brands = [
