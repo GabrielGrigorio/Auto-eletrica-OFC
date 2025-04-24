@@ -127,19 +127,12 @@ function App() {
          </div>
        </section>
 
-      {/* Footer */}
     {/* Footer */}
 <footer className="bg-blue-900 text-white py-12">
   <div className="container mx-auto px-4">
     <div className="grid md:grid-cols-3 gap-8">
       {/* Contato */}
       <div className="flex flex-col space-y-4">
-        {/* Adicionando a logo no início da seção de contatos */}
-        <img
-          src="https://i.postimg.cc/gj5ps7PY/Logo-urso.png" 
-          alt="Logo da Oficina do Urso"
-          className="h-16 w-16 rounded-full object-cover"
-        />
         <h3 className="text-xl font-bold mb-4">Contato</h3>
         <div className="flex items-center gap-2">
           <Phone size={20} />
@@ -173,16 +166,25 @@ function App() {
       </div>
 
       {/* Redes Sociais */}
-      <div>
-        <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
-        <div className="flex gap-4">
-          <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
-            <MessageCircle size={24} />
-          </a>
-          <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
-            <Instagram size={24} />
-          </a>
+      <div className="flex items-center justify-between">
+        <div>
+          <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
+          <div className="flex gap-4">
+            <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+              <MessageCircle size={24} />
+            </a>
+            <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+              <Instagram size={24} />
+            </a>
+          </div>
         </div>
+
+        {/* Logo ao lado direito */}
+        <img
+          src="https://i.postimg.cc/gj5ps7PY/Logo-urso.png"
+          alt="Logo da Oficina do Urso"
+          className="h-16 w-16 rounded-full object-cover"
+        />
       </div>
     </div>
 
