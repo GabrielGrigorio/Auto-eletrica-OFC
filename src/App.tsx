@@ -127,26 +127,26 @@ function App() {
         </div>
       </section>
 
-   {/* Footer */}  
+{/* Footer */}  
 <footer className="bg-blue-900 text-white py-12">  
   <div className="container mx-auto px-4">  
     <div className="grid md:grid-cols-3 gap-8">  
       <div>  
         <h3 className="text-xl font-bold mb-4">Contato</h3>  
-        <div className="space-y-4">  
-          <p className="flex items-center gap-2">  
+        <div className="space-y-2">  
+          <p className="flex items-center">  
             <Phone size={20} />  
             Fixo: (11) 4307-1068  
           </p>  
-          <p className="flex items-center gap-2">  
+          <p className="flex items-center">  
             <Phone size={20} />  
             Cel: (11) 97072-7635  
           </p>  
-          <p className="flex items-center gap-2">  
+          <p className="flex items-center">  
             <Mail size={20} />  
             ofc.dourso@gmail.com  
           </p>  
-          <p className="flex items-center gap-2">  
+          <p className="flex items-center">  
             <MapPin size={20} />  
             Rua Suiça, 120 - Guarulhos/SP  
           </p>  
@@ -155,12 +155,12 @@ function App() {
       <div>  
         <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>  
         <div className="space-y-2">  
-          <p className="flex items-center gap-2">  
+          <p className="flex items-center">  
             <Clock size={20} />  
             Segunda a Sexta: 8h às 18h  
           </p>  
-          <p className="ml-6">Sábado: 8h às 12h</p>  
-          <p className="ml-6">Domingo: Fechado</p>  
+          <p className="flex items-center ml-6">Sábado: 8h às 12h</p>  
+          <p className="flex items-center ml-6">Domingo: Fechado</p>  
         </div>  
       </div>  
       <div>  
