@@ -127,7 +127,7 @@ function App() {
          </div>
        </section>
 
-      {/* Footer */}
+   {/* Footer */}
 <footer className="bg-blue-900 text-white py-12">
   <div className="container mx-auto px-4">
     <div className="grid md:grid-cols-3 gap-8">
@@ -176,11 +176,11 @@ function App() {
             <Instagram size={24} />
           </a>
         </div>
-        {/* Logo quadrada */}
+        {/* Logo aumentada em 25% */}
         <img
           src="https://i.postimg.cc/gj5ps7PY/Logo-urso.png"
           alt="Logo da Oficina do Urso"
-          className="h-16 w-16 object-cover"
+          className="h-20 w-20 object-cover"
         />
       </div>
     </div>
