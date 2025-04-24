@@ -3,27 +3,27 @@ import { Car, MapPin, Phone, Mail, Clock, Instagram, Wrench, MessageCircle } fro
 const brands = [
   {
     name: "Moura",
-    logo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/QMjCQNwq/imagem-2025-04-24-112451616.png",
   },
   {
     name: "Heliar",
-    logo: "https://images.unsplash.com/photo-1492724724894-7464c27d0ceb?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/YS89bKwB/imagem-2025-04-24-112538627.png",
   },
   {
     name: "ACDelco",
-    logo: "https://images.unsplash.com/photo-1518481852452-9415b262eba4?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/mDDrnXbz/imagem-2025-04-24-112605189.png",
   },
   {
     name: "BOSCH",
-    logo: "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/0N5m8Ckx/imagem-2025-04-24-112741100.png",
   },
   {
     name: "HERBO",
-    logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/pXNF9vWs/imagem-2025-04-24-112835814.png",
   },
   {
     name: "REIFOR",
-    logo: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=500&h=200&fit=crop",
+    logo: "https://i.postimg.cc/ZqqBkKH5/imagem-2025-04-24-112912316.png",
   }
 ];
 
@@ -50,16 +50,21 @@ function App() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Especialistas em Elétrica Automotiva</h2>
-          <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>
-          <button className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition">
-            Agende um Serviço
-          </button>
-        </div>
-      </div>
+     {/* Hero Section */}  
+<div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
+  <div className="container mx-auto px-4 text-center">  
+    <h2 className="text-4xl font-bold mb-4">Especialistas em Elétrica Automotiva</h2>  
+    <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
+    <a   
+      href="https://wa.me/5511940394105?text=Olá, gostaria de fazer um orçamento!" // Substitua com seu número válido  
+      className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition"  
+      target="_blank"  
+      rel="noopener noreferrer"  
+    >  
+      Agende um Serviço  
+    </a>  
+  </div>  
+</div>  
 
       {/* Services */}
       <section id="services" className="py-16 bg-white">
@@ -110,7 +115,7 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">Nossa Localização</h2>
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356219020248!2d-43.18340548503453!3d-22.903739785015005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1sen!2sbr!4v1645554745674!5m2!1sen!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305.36630940781447!2d-46.51113347320697!3d-23.451082620372528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8ab685bea91f%3A0xf6a63b72210022!2sR.%20Su%C3%AD%C3%A7a%2C%20120%20-%20Jardim%20Sao%20Francisco%2C%20Guarulhos%20-%20SP%2C%2007195-090!5e0!3m2!1spt-BR!2sbr!4v1739982231206!5m2!1spt-BR!2sbr"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -131,15 +136,15 @@ function App() {
               <div className="space-y-2">
                 <p className="flex items-center gap-2">
                   <Phone size={20} />
-                  (21) 9999-9999
+                  (11) 4307-1067
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail size={20} />
-                  contato@autoeletricadourso.com
+                  ofc.dourso@gmail.com
                 </p>
                 <p className="flex items-center gap-2">
                   <MapPin size={20} />
-                  Rua Example, 123 - Rio de Janeiro
+                  Rua Suiça, 120 - Guarulhos/SP
                 </p>
               </div>
             </div>
@@ -157,10 +162,10 @@ function App() {
             <div>
               <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
               <div className="flex gap-4">
-                <a href="https://wa.me/5521999999999" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511940394105?text=Olá, gostaria de fazer um orçamento!" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
                   <MessageCircle size={24} />
                 </a>
-                <a href="https://instagram.com/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
                   <Instagram size={24} />
                 </a>
               </div>
