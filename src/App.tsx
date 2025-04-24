@@ -38,7 +38,7 @@ function App() {
       <img 
         src="https://i.postimg.cc/vmBt52Xq/imagem-2025-04-24-155942478.png" 
         alt="Auto Elétrica do Urso Logo" 
-        className="h-15 w-15 rounded-full object-cover"
+        className="h-12 w-15 rounded-full object-cover"
       />
       {/* Título aumentado */}
       <h1 className="text-3xl font-bold">Oficina do Urso</h1>
