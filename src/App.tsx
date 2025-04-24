@@ -39,7 +39,7 @@ function App() {
               alt="Auto Elétrica do Urso Logo" 
               className="h-12 w-12 rounded-full object-cover"
             />
-            <h1 className="text-2xl font-bold">Auto Elétrica do Urso</h1>
+            <h1 className="text-2xl font-bold">Oficina do Urso</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="hover:text-yellow-400">Serviços</a>
@@ -53,7 +53,7 @@ function App() {
      {/* Hero Section */}  
 <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
   <div className="container mx-auto px-4 text-center">  
-    <h2 className="text-4xl font-bold mb-4">Especialistas em Elétrica Automotiva</h2>  
+    <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânina em geral</h2>  
     <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
     <a   
       href="https://w.app/autoeletricadourso" // Substitua com seu número válido  
@@ -133,12 +133,12 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">Contato</h3>
-              <div className="space-y-2">
+              <div className="space-y-4">
                 <p className="flex items-center gap-2">
                   <Phone size={20} />
-                  Fixo:(11) 4307-1068 
+                  Fixo: (11) 4307-1068 
                   <Phone size={20} />
-                  Cel:+55 (11) 97072-7635
+                  Cel: (11) 97072-7635
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail size={20} />
