@@ -133,15 +133,15 @@ function App() {
     <div className="grid md:grid-cols-3 gap-8">
       
       {/* Contato */}
-    <div className="space-y-1">
-  <p className="flex items-center gap-2">
+<div className="flex justify-between items-center gap-6 flex-wrap">
+  <div className="flex items-center gap-2">
     <Phone size={20} />
     <span>Fixo: (11) 4307-1068</span>
-  </p>
-  <p className="flex items-center gap-2">
+  </div>
+  <div className="flex items-center gap-2">
     <Phone size={20} />
     <span>Cel: (11) 97072-7635</span>
-  </p>
+  </div>
 </div>
 
           <p className="flex items-center gap-2">
