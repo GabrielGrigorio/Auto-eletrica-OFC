@@ -136,7 +136,7 @@ function App() {
               <div className="space-y-2">
                 <p className="flex items-center gap-2">
                   <Phone size={20} />
-                  (11) 4307-1067
+                  (11) 4307-1067 - (11) 4307-1068
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail size={20} />
