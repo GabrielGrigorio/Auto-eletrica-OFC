@@ -34,14 +34,12 @@ function App() {
 <header className="bg-blue-900 text-white py-4">
   <div className="container mx-auto px-4 flex justify-between items-center">
     <div className="flex items-center gap-4">
-      {/* Logo com borda azul escura */}
-      <div className="h-16 w-16 rounded-full bg-blue-900 flex items-center justify-center">
-        <img 
-          src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
-          alt="Auto Elétrica do Urso Logo" 
-          className="h-14 w-14 rounded-full object-cover"
-        />
-      </div>
+      {/* Logo aumentada */}
+      <img 
+        src="https://i.postimg.cc/j5q6p8RK/Whats-App-Image-2025-02-27-at-18-41-25.jpg" 
+        alt="Auto Elétrica do Urso Logo" 
+        className="h-16 w-16 rounded-full object-cover"
+      />
       {/* Título aumentado */}
       <h1 className="text-3xl font-bold">Oficina do Urso</h1>
     </div>
