@@ -50,21 +50,21 @@ function App() {
         </div>
       </header>
 
-     {/* Hero Section */}  
-<div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
-  <div className="container mx-auto px-4 text-center">  
-    <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânica em geral</h2>  
-    <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
-    <a   
-      href="https://w.app/autoeletricadourso" // Substitua com seu número válido  
-      className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition"  
-      target="_blank"  
-      rel="noopener noreferrer"  
-    >  
-      Agende um Serviço  
-    </a>  
-  </div>  
-</div>  
+      {/* Hero Section */}  
+      <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">  
+        <div className="container mx-auto px-4 text-center">  
+          <h2 className="text-4xl font-bold mb-4">Auto Elétrica e Mecânica em geral</h2>  
+          <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
+          <a   
+            href="https://w.app/autoeletricadourso"
+            className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition"  
+            target="_blank"  
+            rel="noopener noreferrer"  
+          >  
+            Agende um Serviço  
+          </a>  
+        </div>  
+      </div>  
 
       {/* Services */}
       <section id="services" className="py-16 bg-white">
@@ -126,63 +126,66 @@ function App() {
           </div>
         </div>
       </section>
-{/* Footer */}  
-<footer className="bg-blue-900 text-white py-12">  
-  <div className="container mx-auto px-4">  
-    <div className="grid md:grid-cols-3 gap-8">  
-      
-      {/* Contato */}  
-      <div className="flex flex-col space-y-4">  
-        <h3 className="text-xl font-bold mb-4">Contato</h3>  
-        <div className="flex items-center gap-2">  
-          <Phone size={20} />  
-          <span>Fixo: (11) 4307-1068</span>  
-        </div>  
-        <div className="flex items-center gap-2">  
-          <Phone size={20} />  
-          <span>Cel: (11) 97072-7635</span>  
-        </div>  
-        <p className="flex items-center gap-2">  
-          <Mail size={20} />  
-          ofc.dourso@gmail.com  
-        </p>  
-        <p className="flex items-center gap-2">  
-          <MapPin size={20} />  
-          Rua Suiça, 120 - Guarulhos/SP  
-        </p>  
-      </div>  
 
-      {/* Horário de Funcionamento */}  
-      <div>  
-        <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>  
-        <div className="space-y-2">  
-          <p className="flex items-center gap-2">  
-            <Clock size={20} />  
-            Segunda a Sexta: 8h às 18h  
-          </p>  
-          <p className="flex items-center ml-6">Sábado: 8h às 12h</p>  
-          <p className="flex items-center ml-6">Domingo: Fechado</p>  
-        </div>  
-      </div>  
+      {/* Footer */}  
+      <footer className="bg-blue-900 text-white py-12">  
+        <div className="container mx-auto px-4">  
+          <div className="grid md:grid-cols-3 gap-8">  
+            {/* Contato */}  
+            <div className="flex flex-col space-y-4">  
+              <h3 className="text-xl font-bold mb-4">Contato</h3>  
+              <div className="flex items-center gap-2">  
+                <Phone size={20} />  
+                <span>Fixo: (11) 4307-1068</span>  
+              </div>  
+              <div className="flex items-center gap-2">  
+                <Phone size={20} />  
+                <span>Cel: (11) 97072-7635</span>  
+              </div>  
+              <p className="flex items-center gap-2">  
+                <Mail size={20} />  
+                ofc.dourso@gmail.com  
+              </p>  
+              <p className="flex items-center gap-2">  
+                <MapPin size={20} />  
+                Rua Suiça, 120 - Guarulhos/SP  
+              </p>  
+            </div>  
 
-      {/* Redes Sociais */}  
-      <div>  
-        <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>  
-        <div className="flex gap-4">  
-          <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">  
-            <MessageCircle size={24} />  
-          </a>  
-          <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">  
-            <Instagram size={24} />  
-          </a>  
-        </div>  
-      </div>  
-    </div>  
+            {/* Horário de Funcionamento */}  
+            <div>  
+              <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>  
+              <div className="space-y-2">  
+                <p className="flex items-center gap-2">  
+                  <Clock size={20} />  
+                  Segunda a Sexta: 8h às 18h  
+                </p>  
+                <p className="flex items-center ml-6">Sábado: 8h às 12h</p>  
+                <p className="flex items-center ml-6">Domingo: Fechado</p>  
+              </div>  
+            </div>  
 
-    <div className="mt-8 pt-8 border-t border-blue-800 text-center">  
-      <p>&copy; 2024 Oficina do Urso. Todos os direitos reservados.</p>  
-    </div>  
-  </div>  
-</footer>  
+            {/* Redes Sociais */}  
+            <div>  
+              <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>  
+              <div className="flex gap-4">  
+                <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">  
+                  <MessageCircle size={24} />  
+                </a>  
+                <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">  
+                  <Instagram size={24} />  
+                </a>  
+              </div>  
+            </div>  
+          </div>  
+
+          <div className="mt-8 pt-8 border-t border-blue-800 text-center">  
+            <p>&copy; 2024 Oficina do Urso. Todos os direitos reservados.</p>  
+          </div>  
+        </div>  
+      </footer>
+    </div> {/* <-- fechamento final da div do App */}
+  );
+}
 
 export default App;
