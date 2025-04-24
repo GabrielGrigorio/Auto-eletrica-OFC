@@ -56,7 +56,7 @@ function App() {
     <h2 className="text-4xl font-bold mb-4">Especialistas em Elétrica Automotiva</h2>  
     <p className="text-xl text-gray-300 mb-8">Soluções completas para seu veículo</p>  
     <a   
-      href="https://wa.me/5511940394105?text=Olá, gostaria de fazer um orçamento!" // Substitua com seu número válido  
+      href="https://w.app/autoeletricadourso" // Substitua com seu número válido  
       className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition"  
       target="_blank"  
       rel="noopener noreferrer"  
@@ -136,7 +136,8 @@ function App() {
               <div className="space-y-2">
                 <p className="flex items-center gap-2">
                   <Phone size={20} />
-                  (11) 4307-1067 - (11) 4307-1068
+                  Fixo:(11) 4307-1068 
+                  Cel:+55 (11) 97072-7635
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail size={20} />
@@ -162,7 +163,7 @@ function App() {
             <div>
               <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
               <div className="flex gap-4">
-                <a href="https://wa.me/5511940394105?text=Olá, gostaria de fazer um orçamento!" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://w.app/autoeletricadourso" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
                   <MessageCircle size={24} />
                 </a>
                 <a href="https://www.instagram.com/_oficinadourso_/" className="hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
