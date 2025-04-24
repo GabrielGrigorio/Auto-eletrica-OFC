@@ -160,7 +160,7 @@ function App() {
                   <Clock size={20} />  
                   Segunda a Sexta: 8h às 18h  
                 </p>  
-                <p className="flex items-center ml-6">Sábado: 8h às 12h</p>  
+                <p className="flex items-center ml-6">Sábado: Fechado</p>  
                 <p className="flex items-center ml-6">Domingo: Fechado</p>  
               </div>  
             </div>  
