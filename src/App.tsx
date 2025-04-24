@@ -133,16 +133,17 @@ function App() {
     <div className="grid md:grid-cols-3 gap-8">
       
       {/* Contato */}
-     <div className="flex flex-col gap-1">
-        <div className="flex items-center gap-2">
-           <Phone size={20} />
-             <span>Fixo: (11) 4307-1068</span>
-               </div>
-      <div className="flex items-center gap-2">
-        <Phone size={20} />
-         <span>Cel: (11) 97072-7635</span>
-              </div>
-            </div>
+    <div className="space-y-1">
+  <p className="flex items-center gap-2">
+    <Phone size={20} />
+    <span>Fixo: (11) 4307-1068</span>
+  </p>
+  <p className="flex items-center gap-2">
+    <Phone size={20} />
+    <span>Cel: (11) 97072-7635</span>
+  </p>
+</div>
+
           <p className="flex items-center gap-2">
             <Mail size={20} />
             ofc.dourso@gmail.com
