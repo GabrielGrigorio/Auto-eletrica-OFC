@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer base; /* Reserved for base styles to be added in the future */
+@layer components {
+    /* Add your custom component styles here */
+    /* This block is reserved for component-specific styles */
+} /* Fechando o bloco @layer components */
+@layer utilities; /* Reserved for utility styles to be added in the future */
+@layer utilities;
